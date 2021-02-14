@@ -1,5 +1,3 @@
-import time
-
 class rectangle:
     def __init__(self, width, height):
         self.width = width
@@ -21,5 +19,5 @@ class rectangle:
             print(self.mid)
         print(self.topAndBottom)
 
-newSquare = rectangle(5, 5)
-newSquare.draw()
+newRectangle = rectangle(5, 5)
+newRectangle.draw()
