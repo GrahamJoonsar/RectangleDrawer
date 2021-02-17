@@ -1,3 +1,6 @@
+/// Note: Is not able to handle side lengths of one.
+
+
 #include <iostream>
 
 void rectMaker(int width, int height){
